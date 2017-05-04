@@ -15,7 +15,7 @@
 		7E0DB35C1EBB2F5600FFA51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0DB35A1EBB2F5600FFA51D /* LaunchScreen.storyboard */; };
 		7E0DB3671EBB2F5600FFA51D /* PathFindingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DB3661EBB2F5600FFA51D /* PathFindingTestTests.swift */; };
 		7E0DB3721EBB2F5600FFA51D /* PathFindingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DB3711EBB2F5600FFA51D /* PathFindingTestUITests.swift */; };
-		7E85BDE11EBB515E0050D5A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7E85BDE01EBB515E0050D5A0 /* README.md */; };
+		7E85BDE31EBB51C80050D5A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7E85BDE21EBB51C80050D5A0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		7E0DB36D1EBB2F5600FFA51D /* PathFindingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFindingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0DB3711EBB2F5600FFA51D /* PathFindingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFindingTestUITests.swift; sourceTree = "<group>"; };
 		7E0DB3731EBB2F5600FFA51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E85BDE01EBB515E0050D5A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E85BDE21EBB51C80050D5A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		7E0DB34E1EBB2F5600FFA51D /* PathFindingTest */ = {
 			isa = PBXGroup;
 			children = (
-				7E85BDE01EBB515E0050D5A0 /* README.md */,
+				7E85BDE21EBB51C80050D5A0 /* README.md */,
 				7E0DB34F1EBB2F5600FFA51D /* AppDelegate.swift */,
 				7E0DB3511EBB2F5600FFA51D /* MasterViewController.swift */,
 				7E0DB3531EBB2F5600FFA51D /* DetailViewController.swift */,
@@ -269,7 +269,7 @@
 			files = (
 				7E0DB3541EBB2F5600FFA51D /* DetailViewController.swift in Sources */,
 				7E0DB3521EBB2F5600FFA51D /* MasterViewController.swift in Sources */,
-				7E85BDE11EBB515E0050D5A0 /* README.md in Sources */,
+				7E85BDE31EBB51C80050D5A0 /* README.md in Sources */,
 				7E0DB3501EBB2F5600FFA51D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

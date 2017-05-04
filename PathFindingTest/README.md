@@ -1,3 +1,3 @@
-# RabbitMQTest
+# PathfindingTest
 
-branche de dev édité depuis Github
+Test
