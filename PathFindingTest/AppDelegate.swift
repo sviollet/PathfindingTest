@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         //let map = try? Map.buildFreeMap(dimension: 5, spawn: Position(x:1, y:3), target:Position(x:3, y:4))
         
-        let maps = Map.getMaps()
+        
         
         return true
     }

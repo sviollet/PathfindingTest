@@ -7,15 +7,18 @@
 //
 
 import Foundation
+import SpriteKit
 
-fileprivate let START: Int = 3
-fileprivate let END: Int = 4
+public let START: Int = 3
+public let END: Int = 4
 
 class RouteNode: Node {
     
-    private var f: Int = 0
-    private var h: Int = 0
-    private var g: Int = 0
+    public var f: Int = 0
+    public var h: Int = 0
+    public var g: Int?
+    
+    public var shapeNode : SKShapeNode?
     
     init(node: Node) {
         
@@ -23,9 +26,20 @@ class RouteNode: Node {
         
     }
     
+    func refreshNodeFromNeighbourNode() {
+        
+        
+    }
+    
+    
+    
+    
     class func StartNode() -> RouteNode {
         
-        return RouteNode(node: Node(type:START))
+        let result = RouteNode(node: Node(type:START))
+        result.g = 0
+        
+        return result
     }
     
     class func EndNode() -> RouteNode {
